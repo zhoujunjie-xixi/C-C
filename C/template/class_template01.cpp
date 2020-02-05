@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// 类模板
 template <class T>
 class animal
 {
@@ -19,6 +20,7 @@ public:
 
 int main()
 {
+    //注意此处的类对象调用需要指明<>中的类型
     animal<int> a(10);
     a.show();
     return 0;
